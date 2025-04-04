@@ -17,7 +17,7 @@ public class P04_aramaTesti {
      /*
         BeforeAll ile driver'i oluşturun ve class icinde static yapin
         Maximize edin ve 10 sn bekletin
-        her biri için https://www.aol.com/ adresine gidin ilgili aramayı yapıp cikan sonuc sayisini yazdirin
+        her biri için https://www.babayigit.net/test adresine gidin ilgili aramayı yapıp cikan sonuc sayisini yazdirin
         1-arama kutusuna "12 Angry Men” yazip aratın
         2-arama kutusuna "Vizontele” yazip aratın
         3-arama kutusuna "Saving Private Ryan” yazip aratın
@@ -37,8 +37,8 @@ public class P04_aramaTesti {
 
     @BeforeEach
     public void beforeTest(){
-        driver.get("https://www.aol.com/");
-        searchbox= driver.findElement(By.id("header-form-search-input"));
+        driver.get("https://www.babayigit.net/test");
+        searchbox= driver.findElement(By.id("babayigit"));
     }
 
     @AfterEach
